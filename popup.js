@@ -14,7 +14,6 @@ var panelTitle = document.getElementsByClassName('panel-title');
 var panel = document.getElementsByClassName('panel');
 var tab_content = document.getElementsByClassName('tab-content');
 var navTab = document.getElementsByClassName('nav-tabs');
-var active = document.getElementsByClassName('active');
 var i;
 document.addEventListener('DOMContentLoaded', function() {
     var theme = document.getElementById('theme');
@@ -25,9 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function changeTheme(){
     if(count){
-        for (i = 0; i < active.length; i++) {
-            active[i].style.backgroundColor = "#424242";
-        }
         for (i = 0; i < listGroupItem.length; i++) {
             listGroupItem[i].style.backgroundColor = "#424242";
             listGroupItem[i].style.color = '#fff';
@@ -42,22 +38,11 @@ function changeTheme(){
         for (i = 0; i < panel.length; i++) {
             panel[i].style.backgroundColor = "#424242";
         }
-        for (i = 0; i < navTab.length; i++) {
-            navTab[i].style.color = "#fff";
-            navTab[i].style.backgroundColor = "#212121";
-            navTab[i].style.border = "1px solid #424242";
-        }
-        for (i = 0; i < tab_content.length; i++) {
-            tab_content[i].style.backgroundColor = "#fff";
-        }
         for (i = 0; i < container.length; i++) {
             container[i].style.backgroundColor = "#212121";
         }
         count = 0;
     }else{
-        for (i = 0; i < active.length; i++) {
-            active[i].style.backgroundColor = "#f5f5f5";
-        }
         for (i = 0; i < listGroupItem.length; i++) {
             listGroupItem[i].style.backgroundColor = "#f5f5f5";
             listGroupItem[i].style.color = '#000';
@@ -71,14 +56,6 @@ function changeTheme(){
         }
         for (i = 0; i < panel.length; i++) {
             panel[i].style.backgroundColor = "#fff";
-        }
-        for (i = 0; i < navTab.length; i++) {
-            navTab[i].style.color = "#555";
-            navTab[i].style.backgroundColor = "#fff";
-            navTab[i].style.border = "1px solid #ddd";
-        }
-        for (i = 0; i < tab_content.length; i++) {
-            tab_content[i].style.backgroundColor = "#fff";
         }
         for (i = 0; i < container.length; i++) {
             container[i].style.backgroundColor = "#f5f5f5";
