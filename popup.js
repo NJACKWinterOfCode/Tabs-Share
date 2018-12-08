@@ -44,7 +44,7 @@ function changeTheme(){
         count = 0;
     }else{
         for (i = 0; i < listGroupItem.length; i++) {
-            listGroupItem[i].style.backgroundColor = "#f5f5f5";
+            listGroupItem[i].style.backgroundColor = "#fff";
             listGroupItem[i].style.color = '#000';
         }
         for (i = 0; i < panelHeading.length; i++) {
@@ -58,7 +58,7 @@ function changeTheme(){
             panel[i].style.backgroundColor = "#fff";
         }
         for (i = 0; i < container.length; i++) {
-            container[i].style.backgroundColor = "#f5f5f5";
+            container[i].style.backgroundColor = "#fff";
         }
         count = 1;
     }

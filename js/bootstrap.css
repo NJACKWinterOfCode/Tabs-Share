@@ -4026,7 +4026,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: -1px;
 }
 .nav-tabs > li > a {
-  color: #fff;
+  color: rgba(126, 206, 182, 0.87);
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid transparent;
