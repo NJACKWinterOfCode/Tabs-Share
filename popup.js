@@ -37,7 +37,7 @@ var current_tab_data = () => {
         '</h4>'+
         '</div>'+
         '<div id="collapse'+(i+1)+'" class="panel-collapse collapse in">'+
-        '<div class="panel-body col-xs-">';
+        '<div class="panel-body">';
         str2='';
         var no_of_tabs=single_window[i].length;
         var tabs_in_window=single_window[i];
@@ -46,7 +46,7 @@ var current_tab_data = () => {
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
             if (!u) u = '';
             if (!t) t = u;
-            if(t.length > 18){
+            if(t.length > 17){
                 t = t.substring(0,18);
                 t += '...';
             }
@@ -54,10 +54,10 @@ var current_tab_data = () => {
             // workaround
             if (f == 'chrome://theme/IDR_EXTENSIONS_FAVICON') f = 'data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABF0lEQVQoz2P4z4AfMpCgQMfI6LbBZi0mnArCK73f+jyOZMWiQENOU0KHe3N01KuOg/+ZNHg0ZNSZUBSYn7T8aP3B6230y5DX9u8tP5p+suZDURD6IOJV1Mu4FynPE19Ev4x85fvmPweKgrj76c8ykWDkKwtOTVUNHriC5atfLNy2Nf05TEHMS9d9Fh9M98IVvLb5z7c5IOEFTEHy88yrIa+DH8AVmDwy7/BeEwdXkPrsf+3aHXsXwhX4P/V7E/I6+8HpNUCLgAqiX7qw/rf+rwZXkHEj8UXii5aj/1Xv26c+yXwW8SpIAsUX1fvz72c/ir38n8EtO/Fx1Y2ai63yqEEd97/zf///eiDL8X/f/9r/Wf95iI5NALw5DuHmTOHfAAAAAElFTkSuQmCC';
             if(second_tab){
-                str3= '<td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text">'+t+'</div></div></td></table>';
+                str3= '<td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text"><center>'+t+'</center></div></div></td></table>';
                 second_tab= 0;
             }else{
-                str3= '<table><td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text">'+t+'</div></div></td>';
+                str3= '<table><td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text"><center>'+t+'</center></div></div></td>';
                 second_tab =1;
             }
             str2+=str3;
@@ -94,7 +94,7 @@ var saved_tab_data =  () => {
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
             if (!u) u = '';
             if (!t) t = u;
-            if(t.length > 18){
+            if(t.length > 17){
                 t = t.substring(0,18);
                 t += '...';
             }
@@ -102,10 +102,10 @@ var saved_tab_data =  () => {
             // workaround
             if (f == 'chrome://theme/IDR_EXTENSIONS_FAVICON') f = 'data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABF0lEQVQoz2P4z4AfMpCgQMfI6LbBZi0mnArCK73f+jyOZMWiQENOU0KHe3N01KuOg/+ZNHg0ZNSZUBSYn7T8aP3B6230y5DX9u8tP5p+suZDURD6IOJV1Mu4FynPE19Ev4x85fvmPweKgrj76c8ykWDkKwtOTVUNHriC5atfLNy2Nf05TEHMS9d9Fh9M98IVvLb5z7c5IOEFTEHy88yrIa+DH8AVmDwy7/BeEwdXkPrsf+3aHXsXwhX4P/V7E/I6+8HpNUCLgAqiX7qw/rf+rwZXkHEj8UXii5aj/1Xv26c+yXwW8SpIAsUX1fvz72c/ir38n8EtO/Fx1Y2ai63yqEEd97/zf///eiDL8X/f/9r/Wf95iI5NALw5DuHmTOHfAAAAAElFTkSuQmCC';
             if(second_tab){
-                str6= '<td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text">'+t+'</div></div></td></table>';
+                str6= '<td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text"><center>'+t+'</center></div></div></td></table>';
                 second_tab= 0;
             }else{
-                str6= '<table><td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text">'+t+'</div></div></td>';
+                str6= '<table><td><div class="list-group-item" id="item">'+'<img src='+f+' /> <div id="text"></center>'+t+'</center></div></div></td>';
                 second_tab =1;
             }
             str5+=str6;
