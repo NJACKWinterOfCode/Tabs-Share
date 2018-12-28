@@ -28,9 +28,5 @@ Now you have successfully installed the extension.
 - Star our GitHub repo 🌟
 - Create pull requests, [create an issue](https://github.com/njackwinterofcode/Tabs-Share/issues), suggest new features or documentation updates 🔧
 
-### Author:
-
-**Akshat Garg**
-[<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="35" padding="10">](https://github.com/akshatnitd)
-
 <p align="center"> Made with ❤ by <a href="https://github.com/akshatnitd">Akshat Garg</a></p>
+
