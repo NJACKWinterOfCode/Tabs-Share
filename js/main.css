@@ -1,7 +1,7 @@
 body 
 {
 	margin: 0px;
-	width: 411.5px;
+	min-width: 411.5px;
 	overflow-x: hidden;
 	font: 12px 'Noto Sans' ,'lucida grande', helvetica, arial, sans-serif;
 }
@@ -11,7 +11,6 @@ body
 	width: 167.5px;
 	clear: both;
 	cursor: pointer;
-	background-color:#424242;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
@@ -26,19 +25,29 @@ body
 img 
 {
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 	padding-right: 5px;
-	margin-left: 30px;
+	margin-top: 7px;
+	margin-left: 10px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
+.circle
+{
+	border-radius: 50%;
+	background: #fff;
+	margin-left: 45px;
+    width: 45px;
+    height: 45px; 
+}
+
 /* Switch Styling */
 .switch 
 { 
-	margin: 11px 11px 0px 11px;
+	float: right;
 	position: relative;
 	display: inline-block;
 	width: 30px;
