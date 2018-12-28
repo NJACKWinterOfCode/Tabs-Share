@@ -11,6 +11,7 @@ body
 	width: 167.5px;
 	clear: both;
 	cursor: pointer;
+	background-color:#424242;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
@@ -39,7 +40,7 @@ img
 {
 	border-radius: 50%;
 	background: #fff;
-	margin-left: 45px;
+	margin-left: 30px;
     width: 45px;
     height: 45px; 
 }
@@ -48,6 +49,7 @@ img
 .switch 
 { 
 	float: right;
+	margin: 0px 11px 0px 11px;
 	position: relative;
 	display: inline-block;
 	width: 30px;

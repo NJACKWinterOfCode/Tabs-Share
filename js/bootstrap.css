@@ -1584,9 +1584,8 @@ pre code {
 }
 .container {
   border-radius: 4px 4px 4px 4px;
-  background-image: url(../icons/panel-dark.jpg);
-  background-size: cover;
-	padding-right: 15px;
+	background-color: #212121;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -5260,6 +5259,7 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
+  background-color: #fff;
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
@@ -5457,8 +5457,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-image: url(../icons/panel-dark.jpg);
-  background-size: cover;
+  background-color: #424242;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -5696,6 +5695,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #333;
+  background-color: #424242;
   border-color: #ddd;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
