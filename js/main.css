@@ -1,19 +1,20 @@
 body 
 {
 	margin: 0px;
-	min-width: 411.5px;
+	min-width: 700px;
 	overflow-x: hidden;
 	font: 12px 'Noto Sans' ,'lucida grande', helvetica, arial, sans-serif;
 }
 
 #item 
 {
-	width: 167.5px;
+	flex-basis: 20%;
 	clear: both;
 	cursor: pointer;
 	background-color:#424242;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	flex: 1;
 }
 
 #text 
@@ -28,9 +29,7 @@ img
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	padding-right: 5px;
 	margin-top: 7px;
-	margin-left: 10px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -40,7 +39,6 @@ img
 {
 	border-radius: 50%;
 	background: #fff;
-	margin-left: 30px;
     width: 45px;
     height: 45px; 
 }

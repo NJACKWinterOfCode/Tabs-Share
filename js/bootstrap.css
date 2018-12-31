@@ -5465,6 +5465,8 @@ button.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
+  display: flex;
+  flex-flow: wrap;
 }
 .panel-heading {
   padding: 10px 15px;
