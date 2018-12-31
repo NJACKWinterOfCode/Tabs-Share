@@ -77,7 +77,7 @@ var saved_tab_data =  () => {
         '</h4>'+
         '</div>'+
         '<div id="collapse'+(l+1)+'" class="panel-collapse collapse in">'+
-        '<div class="panel-body"><table>';
+        '<div class="panel-body">';
         str5='';
         var no_of_tabs=saved_windows[l].length;
         var tabs_in_window=saved_windows[l];
