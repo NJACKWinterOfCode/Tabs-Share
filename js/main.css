@@ -13,6 +13,10 @@ body
 	background-color:#424242;
 	padding-top: 3px;
 	padding-bottom: 3px;
+}
+
+.item
+{
 	flex: 1;
 	display: flex;
 	flex-flow: column;
@@ -22,7 +26,7 @@ body
 {
 	max-width: 350px;
 	max-height: 15px;
-	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 img 
