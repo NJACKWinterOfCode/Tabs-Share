@@ -17,6 +17,7 @@ body
 
 .item
 {
+	width: 33%;
 	flex: 1;
 	display: flex;
 	flex-flow: column;
@@ -24,8 +25,10 @@ body
 
 #text 
 {
-	max-width: 350px;
+	max-width: 100%;
 	max-height: 15px;
+	white-space: nowrap;
+	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
