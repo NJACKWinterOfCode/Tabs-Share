@@ -14,23 +14,6 @@ body
 	padding-top: 3px;
 	padding-bottom: 3px;
 	flex: 1;
-}
-
-#item1
-{
-	flex: 1;
-	display: flex;
-	flex-flow: column;
-}
-#item2
-{
-	flex: 1;
-	display: flex;
-	flex-flow: column;
-}
-#item3
-{
-	flex: 1;
 	display: flex;
 	flex-flow: column;
 }

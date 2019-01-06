@@ -36,7 +36,7 @@ var current_tab_data = () => {
         '</h4>'+
         '</div>'+
         '<div id="collapse'+(i+1)+'" class="panel-collapse collapse in">'+
-        '<div class="panel-body"><div id = "#item1">';
+        '<div class="panel-body"><div id = "#item0">';
         str2='';
         var no_of_tabs=single_window[i].length;
         var tabs_in_window=single_window[i];
@@ -55,7 +55,7 @@ var current_tab_data = () => {
             str3= '<div class="list-group-item" id="item">'+'<center><div class="circle"><img src='+f+' /></div> <div id="text">'+t+'</div></center></div>';
             str2+=str3;
         }
-        str2 += '</div><div id = "#item2">';
+        str2 += '</div><div id = "#item0">';
         for(j=1;j<no_of_tabs;j += 3) {
             tab=tabs_in_window[j];
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
@@ -71,7 +71,7 @@ var current_tab_data = () => {
             str3= '<div class="list-group-item" id="item">'+'<center><div class="circle"><img src='+f+' /></div> <div id="text">'+t+'</div></center></div>';
             str2+=str3;
         }
-        str2 += '</div><div id = "#item3">';
+        str2 += '</div><div id = "#item0">';
         for(j=2;j<no_of_tabs;j += 3) {
             tab=tabs_in_window[j];
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
@@ -109,7 +109,7 @@ var saved_tab_data =  () => {
         '</h4>'+
         '</div>'+
         '<div id="collapse'+(l+1)+'" class="panel-collapse collapse in">'+
-        '<div class="panel-body"><div id = "#item1">';
+        '<div class="panel-body"><div id = "#item0">';
         str5='';
         var no_of_tabs=saved_windows[l].length;
         var tabs_in_window=saved_windows[l];
@@ -128,7 +128,7 @@ var saved_tab_data =  () => {
             str6 = '<div class="list-group-item" id="item">'+'<center><div class="circle"><img src='+f+' /></div> <div id="text">'+t+'</div></center></div>';
             str5+=str6;
         }
-        str5 += '</div><div id = "#item2">';
+        str5 += '</div><div id = "#item0">';
         for(m=1;m<no_of_tabs;m += 3) {
             tab=tabs_in_window[m];
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
@@ -144,7 +144,7 @@ var saved_tab_data =  () => {
             str6 = '<div class="list-group-item" id="item">'+'<center><div class="circle"><img src='+f+' /></div> <div id="text">'+t+'</div></center></div>';
             str5+=str6;
         }
-        str5 += '</div><div id = "#item3">';
+        str5 += '</div><div id = "#item0">';
         for(m=2;m<no_of_tabs;m += 3) {
             tab=tabs_in_window[m];
             var f = tab.favIconUrl, t = tab.title, u = tab.url;
